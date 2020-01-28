@@ -11,7 +11,7 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+
 
   var database = firebase.database();
 
@@ -37,12 +37,6 @@
     // Uploads employee data to the database
     console.log('new train: ' + newTrain);
     database.ref().push(newTrain);
-  
-    // Logs everything to console
-    console.log(newEmp.name);
-    console.log(newEmp.role);
-    console.log(newEmp.start);
-    console.log(newEmp.rate);
   
     alert("Train Succesfully Added!");
   
