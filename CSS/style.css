@@ -1,0 +1,12 @@
+  
+.jumbotron {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+table,
+form {
+    max-width: 85%;
+    margin: auto;
+}
